@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Testes</title>
+    <!--se usar o collapse não vai ficar com linhas duplicadas-->
+    <style>
+        table, th, td { border: 1px solid black;
+                        border-radius: 2px;
+                        padding: 10px;}  
+
+
+                th, td { background-color: aqua;
+                         color: black;}  
+                 
+                th { background-color: black;
+                     color: white;}        
+    </style>
+</head>
+<body>
+      <h1>Lista de compras</h1> <!-- se usar o <ul> fica com um bolinhas -->
+        <ol start="5">
+            <li>Macarrão</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+            <li>Café</li>
+            <li>Tapioca</li>
+        </ol>
+
+
+        <h1>Conteúdos de desenvolvimento web</h1>
+        <ol>
+            <li>
+                HTML
+                <ul>
+                    <li>Listas</li>
+                    <li>Formulários</li>
+                    <li>Parágrafos</li>
+                </ul>
+            </li>
+                <li>CSS</li>
+                <li>Programação Front-end</li>
+                <li>
+                    Programação Back-end
+                    <ul>
+                        <li>Conexão com banco de dados</li>
+                        <li>Desenvolvimento de APIs REST</li>
+                        <li>Desenvolvimento do módulo de Autenticação</li>
+                    </ul>
+                </li>
+        </ol>
+
+
+        <h1>Listas de disciplinas do curso</h1>
+       <table style="border: 1px solid black">
+            <tr>
+                <th style="border: 1px solid black">Disciplinas</th>
+                <th style="border: 1px solid black">Professor</th>
+                <th style="border: 1px solid black">Horas</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Programação I</td>
+                <td style="border: 1px solid black">Ronaldo</td>
+                <td style="border: 1px solid black">80</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Construção de Páginas</td>
+                <td style="border: 1px solid black">Ramon</td>
+                <td style="border: 1px solid black">40</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Banco de Dados I</td>
+                <td style="border: 1px solid black">Arnaldo</td>
+                <td style="border: 1px solid black">120</td>
+            </tr>
+       </table>
+       <hr>
+       <table>
+        <h1>Listas de Disciplinas do curso:</h1>
+          <tr>
+                <th>Disciplinas</th>
+                <td>Programação I</td>
+                <td>Construção de Páginas</td>
+                <td>Banco de dados I</td>
+            </tr>
+            <tr>
+                <th>Professor</th>
+                <td>Ronaldo</td>
+                <td>Ramon</td>
+                <td>Arnaldo</td>
+            </tr>
+            <tr>
+                <th>Horas</th>
+                <td>80</td>
+                <td>40</td>
+                <td>120</td>
+            </tr>
+       </table>
+       <hr>
+       <table>
+        <h1>Listas de Clientes:</h1>
+          <tr>
+                <th>Nome</th>
+                <td colspan="2">Telefones</td>
+            </tr>
+            <tr>
+                <th>Jorge</th>
+                <td>123</td>
+                <td>456</td>
+            </tr>
+            <tr>
+                <th>Cristiano</th>
+                <td>123</td>
+                <td>456</td>
+            </tr>
+       </table>
+       <hr>
+</body>
+</html>
+
